@@ -23,5 +23,4 @@ public class EmployeeServiceImpl implements EmployeeService {
     public Employee getEmployeeById(long id) {
         return employeeRepository.getOne(id);
     }
-
 }
